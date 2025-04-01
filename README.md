@@ -31,7 +31,7 @@ npm install
 
 ### 3. Get TMDB API Key
 
-To access movie data, you'll need a TMDB API key. Follow these steps to get one:
+To access movie data, you will need a TMDB API key. Follow these steps to get one:
 
 1. Go to the [TMDB website](https://www.themoviedb.org/).
 2. Create an account or log in if you already have one.
