@@ -1,5 +1,5 @@
 
-# MiniFlix App
+# MiniFlix
 
 This is a Nuxt.js project for a movie app inspired by Netflix. It uses the TMDB API to fetch movie data and display it in a responsive, glassmorphism-styled design.
 
@@ -18,8 +18,8 @@ Before setting up the project, ensure you have the following installed on your m
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/surajsingh2/nuxt-movie-app.git
-cd nuxt-movie-app
+git clone https://github.com/surajsingh2/miniflix.git
+cd miniflix
 ```
 
 ### 2. Install Dependencies
@@ -36,11 +36,11 @@ To access movie data, you'll need a TMDB API key. Follow these steps to get one:
 1. Go to the [TMDB website](https://www.themoviedb.org/).
 2. Create an account or log in if you already have one.
 3. Navigate to the [API section](https://www.themoviedb.org/settings/api).
-4. Click on "Create" to generate a new API key. You'll be provided with a key to access the API.
+4. Click on "Create" to generate a new API key. You will be provided with a key to access the API.
 
 ### 4. Set Up Environment Variables
 
-1. Create a `.env` file in the root of the project (if it doesn't exist already).
+1. Create a `.env` file inside the root of the project (if it does not exist already).
 2. Add your TMDB API key to the `.env` file:
 
 ```
@@ -55,8 +55,6 @@ Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 This will launch the app on [http://localhost:3000](http://localhost:3000).
